@@ -1,0 +1,77 @@
+var temp22=document.querySelector('body')
+var create_el13=document.createElement('div')
+create_el13.textContent=" market"
+create_el13.setAttribute('id','market')
+temp22.appendChild(create_el13);
+
+var x = document.createElement("TABLE");
+  x.setAttribute("id", "myTable");
+  document.body.appendChild(x);
+
+  var y = document.createElement("TR");
+  y.setAttribute("id", "myTr");
+  document.getElementById("myTable").appendChild(y);
+
+  var z = document.createElement("TD");
+  var t = document.createTextNode("cell");
+  z.appendChild(t);
+  document.getElementById("myTr").appendChild(z);
+
+
+var body_select=document.querySelector('body')
+    var first_ind1=document.createElement('div')
+    first_ind1.textContent="Id"
+    first_ind1.setAttribute('id','new_id1')
+    body_select.appendChild(first_ind1);
+
+    var first_ind2=document.createElement('div')
+    first_ind2.setAttribute('id','new_id2')
+    first_ind.textContent="Title"
+    body_select.appendChild(first_ind2);
+
+    var first_ind3=document.createElement('div')
+    first_ind3.setAttribute('id','new_id3')
+    first_ind.textContent="Stock_Symbol"
+    body_select.appendChild(first_ind3);
+
+    var first_ind4=document.createElement('div')
+    first_ind4.setAttribute('id','new_id4')
+    first_ind.textContent="stock_price"
+    body_select.appendChild(first_ind4);
+
+    var first_ind5=document.createElement('div')
+    first_ind5.setAttribute('id','new_id5')
+    first_ind.textContent="market_cap"
+    body_select.appendChild(first_ind5);
+
+{
+"id":1,
+"title":"Starbucks Corporation",
+"stock_symbol":"SBUX",
+"stock_price":"0.09",
+"market_cap":22409000
+}
+
+create_p.style.cssFloat="left";
+    create_p.style.marginTop="70px";
+    create_p.style.marginLeft="50px";
+    create_p.style.padding='10px';
+    create_p.style.border = '5px solid red';
+    create_p.style.fontSize='25px';
+    create_p.style.color="#FDFAFA";
+
+    var search=document.getElementById('div_new')
+    search.appendChild(create_p);
+
+    var out= "Id = " + outon[i]["id"] + "<br>" + "title = " +  outon[i]["title"] + "<br>" 
+                + "stock_symbol = " +  outon[i]["stock_symbol"] + "<br>" + "stock_price = " + outon[i]["stock_price"]
+                + "<br>" + "market_cap = " + outon[i]["market_cap"];
+
+
+                for(var i=0;i<outon;i++)
+    {
+        for(var j=0;j<outon;j++)
+        {
+                var out= "Id = " + outon[0][0]
+        }
+    }
